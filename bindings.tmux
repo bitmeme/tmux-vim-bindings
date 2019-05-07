@@ -91,6 +91,10 @@ main() {
     tmux bind-key -n M-v    split-window -h
     tmux bind-key -T prefix v         split-window -h
 
+    # <Alt+{/}> to switch to previous/next window
+    tmux bind-key -n M-{    previous-window
+    tmux bind-key -n M-}    next-window
+
     # <Alt+w> select window
     tmux bind-key -n M-"'"  command-prompt -p index "select-window -t ':%%'"
 
@@ -126,8 +130,8 @@ main() {
 
 ### Pane Hotkeys
 ###
-    # <Alt+Tab> toggle last pane
-    tmux bind-key -n M-Tab last-pane
+    # <Alt+Shift+Tab> toggle last pane
+    tmux bind-key -n M-S-Tab last-pane
 
     # <Alt+h/l/j/k> pane selection
     tmux bind-key -n M-h   select-pane -L

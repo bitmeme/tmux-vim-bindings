@@ -50,18 +50,20 @@ Minor `tmux` key optimizations:
 - `Alt+t` (`M-t`) - new window
 - `Alt+\`` (`M-\``) - toggle last window
 - `Alt+NUM`(`M-NUM`) - select window NUM (1-9)
+- `Alt+{` (`M-{) - select previous window
+- `Alt+}` (`M-}) - select previous window
 - `Alt+s` (`M-s`) - split window horizontally
 - `Alt+v` (`M-v`) - split window vertically
-- `Alt+w` (`M-w`) - close window
+- `Alt+x` (`M-x`) - close window
 
 ### Panes
 
-- `Alt+Tab` (`M-Tab`) - toggle last pane
+- `Alt+Shift+Tab` (`M-Shift-Tab`) - toggle last pane
 - `Alt+h/l/j/k` (`M-h/l/j/k`)  - pane selection (hljk)
 - `Alt+Shift+h/l/j/k` (`M-H/L/J/K`) - pane resize
 - `Alt+d` (`M-d`) - swap pane forward
 - `Alt+Shift+d` (`M-D`) - swap pane backward
-- `Alt+w` (`M-w`) - close pane
+- `Alt+x` (`M-x`) - close pane
 
 ## Authors
 
