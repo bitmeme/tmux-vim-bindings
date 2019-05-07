@@ -19,7 +19,7 @@ Part of [ek9/dotfiles][10] collection.
 Add plugin to the list of [TPM][4] plugins in `.tmux.conf`:
 
 ```
-set -g @plugin 'ek9/tmux-vim-bindings'
+set -g @plugin 'bitmeme/tmux-vim-bindings'
 ```
 
 Hit `prefix + I` to fetch the plugin and source it.
