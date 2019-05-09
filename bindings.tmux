@@ -34,8 +34,6 @@ main() {
 
     # <Alt+A> as prefix
     tmux bind-key M-a       send-prefix
-    tmux bind-key -n C-a       send-prefix
-
 
     # <Alt+r> reload tmux config (source-file ~/.tmux.conf)
     tmux bind-key -n M-r    run-shell ' \
